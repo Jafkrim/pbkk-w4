@@ -8,9 +8,9 @@
         <hr>
         <p class="lead">Kelompok kami memilih tema spesifik:</p>
         <div class="p-3 mb-3 rounded {{ $mode == 'dark' ? 'bg-secondary text-light' : 'bg-light border' }}">
-            <strong>Tema:</strong> Security Vulnerability Scanner Agent berbasis Laravel & NativePHP.
+            <strong>Tema:</strong> Smart Local Archivist (ByeByeCleaner)
         </div>
-        <p>Aplikasi mandiri ini dirancang untuk mendeteksi celah keamanan secara reaktif dengan dukungan tool execution backend otomatis.</p>
+        <p>Merupakan asisten AI otonom lokal yang dapat mengelola dan merapikan tumpukan file usang di perangkat pengguna berdasarkan topik.</p>
 
         <a href="{{ route('ide.agent', ['mode' => $mode == 'dark' ? 'light' : 'dark']) }}" class="btn btn-{{ $mode == 'dark' ? 'light' : 'dark' }} btn-sm mt-3">
             Ubah Tampilan ke Mode {{ $mode == 'dark' ? 'Terang (Light)' : 'Gelap (Dark)' }}
